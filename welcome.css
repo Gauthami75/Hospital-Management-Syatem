@@ -1,0 +1,156 @@
+.navbar{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    color:white;
+}
+.container-fluid{
+    width:23%;
+    margin-left: 1%;
+    
+}
+.nav-style{
+    color:white;
+}
+.nav-style a{
+    text-decoration: none;
+    color:#A957E3;
+}
+.nav-style i{
+    color:#A957E3;
+}
+#title a{
+    color:white;
+}
+.left-tabs{
+   
+    margin:10% 2% 2% 2%;
+    height: 300px;
+}
+.nav-link:hover{
+    background:-webkit-linear-gradient(left, #753DC9, #753DC9);
+    color:black;
+}
+.nav-link.active{
+    background:-webkit-linear-gradient(left, #753DC9, #753DC9);
+}
+.nav-link{
+    color:black;
+    
+}
+.nav-pills .nav-link {
+    border: solid 1px grey;
+    border-radius:0px;
+}
+.topBorder{
+    border-top-left-radius:0.5rem;
+    border-top-right-radius:0.5rem;
+}
+.bottomBorder{
+    border-bottom-left-radius:0.5rem;
+    border-bottom-right-radius:0.5rem;
+}
+.flex-column{
+    width:20%;
+}
+#v-pills-tabContent{
+    
+    width:100%;
+    display:inline;
+}
+.right-content{
+    margin:0% 10% 10% 10%;
+    width:30%;
+    text-align:center;
+    float:left;
+}
+.icon-style{
+    font-size:50px;
+    margin:3%;
+    background:#753DC9;
+    color:white;
+}
+.subline a{
+    text-decoration:none;
+    color:#753DC9;
+}
+h2{
+    position:relative;
+    top:100px;
+    text-align:center;
+
+}
+.border{
+    border:solid 1px grey;
+    margin-left:2%;
+    width:80%;
+    padding:2%;
+}
+h3{
+    text-align:center;
+}
+.appointment-form{
+    padding:2%;
+    width:100%;
+    margin:2% ;
+    
+}
+.appointment-form select{
+    width: 70%;
+    float:right;
+    margin-right:1%;
+} 
+.appointment-form label{
+   
+    float:left;
+} 
+
+.appointment-form input{
+    width: 70%;
+    float:right;
+    margin:1%;
+}
+.welcome-btn{
+    background:#743CC9;
+    width:20%;
+    border: none;
+    height: 50px;
+    border-radius:0.5rem;
+    color:white;
+    margin-left:2%;
+}
+.appointment-form span{
+    margin-left:15%;
+    width:100px;
+}
+#v-pills-messages{
+    
+    float:top;
+    text-align:center;
+}
+.tbl th,td{
+   
+    border: solid 3px black;
+    padding:2%;
+    width:2%;
+}
+#v-pills-messages table{
+    position:relative;
+    top:-390px;
+}
+#appHistoryBtn{
+    background: #743CC9;
+    width:5%;
+}
+.search{
+    width: 70%;
+    display:inline;
+    margin:0% 2% 2% 2%;
+}
+.seacrchButton{
+    border:none;
+    background-color: #743CC9;
+    color:white;
+}
+#message{
+    background-color:#3931af;
+    color:white;
+}

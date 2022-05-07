@@ -1,0 +1,162 @@
+body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    
+}
+.container-fluid i{
+    color:rgb(247, 241, 241);
+    font-size:20px;
+
+}
+.container-fluid a{
+    margin:10px;
+    color:white;
+}
+.navbar-light .navbar-brand {
+    color:white;
+}
+
+.navbar-light .navbar-brand:hover{
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:white;
+}
+
+.image{
+    
+    margin-top:15%;
+    
+}
+.leftImage div{
+    position: relative;
+    animation-name: image;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes image{
+    0%{top:0px;}
+    25%{top:10px;}
+    50%{top:0px;}
+    75%{top:10px;}
+    100%{top:0px;}
+}
+.leftImage p{
+   padding:10px 10px 10px 15px;
+   color:white;
+   font-size: 20px;
+}
+.leftImage{
+    margin-top:10%;
+    
+}
+#register-form{
+    width:80%;
+    height:400px;
+    background:white;
+    float:right;
+    margin:0% 1% 10% 10%;
+    border-top-left-radius:170px;
+    border-bottom-left-radius:170px;
+}
+#register-content{
+    margin-left:15%;
+    
+}
+.nav-tabs {
+    border:none;
+    color:white;
+    background:#5E3ED5;
+    width:230px;
+    height:50px;
+    border-radius:25px;
+    float:right;
+    margin:20px 30px 20px 20px;
+    
+}
+#register-form li{
+    height: 10px;
+}
+.container-fluid i{
+    margin-left:20px;
+    font-size:10px;
+}
+.nav-tabs a{
+    position:relative;
+    top:18px;
+    text-decoration:none;
+    color:white;
+    left:10px;
+    padding:20px 10px 10px 10px;
+    
+}
+#register-form a:hover{
+    color:white;
+    border: none;
+    border-radius:25px;
+    
+   
+}
+#register-form a.active{
+    background:white;
+    border: solid 2px #5E3ED5;
+    border-radius:25px;
+    color:#5E3ED5;
+   
+}
+
+.style{
+    
+    margin:20px 0px 10px 30px;
+    width: 400px;
+    border-radius:10px;
+    display: inline;
+}
+#radio-options{
+float:left;
+margin-left:5%;
+   
+    
+}
+
+#patient a{
+    float:left;
+    text-decoration:none;
+    color:#5E3ED5;
+    margin-left:10%;
+}
+#patient a:hover{
+    color:#5E3ED5;
+}
+.style-button{
+    float:right;
+    margin-right:90px;
+    width:150px;
+    background:#5E3ED5;
+    color:white;
+    border-radius:15px;
+}
+#doctor button{
+    margin-top:30px;
+    margin-right:30px;
+}
+.heading{
+    margin-top:80px;
+    margin-left:250px;
+    text-align:center;
+}
+#admin button{
+    margin-top:30px;
+    margin-right:30px;
+}
+#home-page{
+    display:flex;
+    margin-top:10%;
+}
+#error-message{
+    /* background:#3931af; */
+    color:white;
+    margin-left:5%;
+}

@@ -1,0 +1,57 @@
+body{
+    width:100%;
+}
+#dropmess{
+    background:white;
+    height: 450px;
+    width: 55%;
+    margin: 0 auto;
+    margin-top:10%;
+    margin-bottom: 5%;
+    border-radius:10rem;
+}
+#dropicon i{
+    
+    background:white;
+    font-size: 400%;
+    color: #5E3ED5;
+    width:15%;
+    height: 100px;
+    padding: 3%;
+    border-radius:50%;
+}
+#dropicon{
+    position:relative;
+    top: -10%;
+    left: 40%;
+}
+#dropmess h3{
+    text-align:center;
+}
+.inputstyle{
+    margin:2%;
+    width: 50%;
+    height: 40px;
+    border: 1px solid #E5E7EC;
+    border-radius: 1.5rem;
+}
+#mess{
+    float:right;
+    width:40%;
+    margin-top:-16%;
+    margin-right:3%;
+    border:1px solid #E5E7EC;
+    border-radius:1.5rem;
+    height: 180px;
+    padding:2%;
+}
+#messbtn{
+    margin:0 auto;
+    background:#5E3ED5;
+    color:white;
+    border:none;
+    height: 40px;
+    border-radius:1.5rem;
+    margin-left: 40%;
+    width:20%;
+}
